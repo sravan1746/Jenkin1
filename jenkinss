@@ -19,7 +19,7 @@ pipe line {
        }
        stage('release') {
           steps {
-              echo 'Im the winner'
+              echo 'Im the winner' git branch: 'main', url: 'https://github.com/sravan1746/Jenkin1.git'
             }
        }
    } 
